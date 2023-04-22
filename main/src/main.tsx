@@ -7,16 +7,16 @@ import './index.css'
 
 const { bus, setupApp, preloadApp, destroyApp } = WujieReact;
 
-// preloadApp({
-//   name:"son1",
-//   exec:true,
-//   url:"http://localhost:5174"
-// })
-// preloadApp({
-//   name:"son2",
-//   exec:true,
-//   url:"http://localhost:5175"
-// })
+preloadApp({
+  name:"son1",
+  exec:true,
+  url:"http://localhost:5174"
+})
+preloadApp({
+  name:"son2",
+  exec:true,
+  url:"http://localhost:5175"
+})
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
