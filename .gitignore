@@ -40,6 +40,9 @@ build/Release
 
 # Dependency directories
 node_modules/
+main/node_modules/
+web/react-demo/node_modules/
+web/vue-demo/node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
